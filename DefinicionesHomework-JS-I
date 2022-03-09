@@ -1,0 +1,53 @@
+Definiciones homework.js "02-JS-I". 
+
+   // VARIABLES: se utilizan para asignar valores. hay 3 formas para declarar una variable. 
+   //var: es la palabra clave genérica de "variable".
+   
+   ej: var numero = 1;
+   
+   //let: es simil a "var" pero tiene un comportamiento distinto, como diferir al crear un "nivel de scope"
+   
+   ej: let letra = 2; 
+   
+   //const: es una variable que no podremos modificar más adelante, significa "constante".
+   
+   ej: const noCambia = 3;
+          
+   // STRINGS: un string encadena caracteres y se utiliza para representar datos textuales como una palabra, una oración o una descripción.
+       siempre deben estar entre comillas dobles o simples. 
+   
+   ej: "Hola!" 
+   
+   // FUNCIONES: las funciones son acciones que se utilizan para calcular, cambiar o hacer algo con valores que ya tengamos.
+          se denominan "callable objets" ("objetos invocables" en español) y tienen las mismas propiedades que cualquier objeto. 
+          una función comienza con la palabra "function" seguida del nombre que le querramos asignar a esa función, parentesis abierto 
+          y otro cercano y luego entre corchetes escribimos el código que querramos que realice dicha función. para realizar esta acción
+          debemos invocar la función escribiendo el nombre que le hayamos asignado y los paréntesis seguidos a él. 
+   
+   ej: function saludar() {
+           console.log ("Hola");
+       }
+       
+       saludar() 
+       
+   // ARGUMENTOS: si utilizamos una variable dentro de los paréntesis cuando declaramos la función, podremos usarla en ella. 
+               podremos usar múltiples argumentos separándolos con una coma entre ellos. 
+   
+   ej: function saludar (nombre, apellido) {
+         var nombreCompleto = nombre + " " + apellido;
+         return "Hola, " + nombreCompleto; 
+       }
+       
+   // IF: es un operador de control de flujo y comparación. se basa, en palabras simples, en la lógica de "si es que X es igual a Y, hacé tal cosa".
+           si el resultado es verdadero (true), nos devuelve la acción que demandemos. si el resultado es negativo, nos da falso (false).
+   // ELSE: es para darle otro resultado a la operación si nuestros valores no cumplen con "IF" (o sea, nos da false).
+            como decir "si x es igual a Y, hacé tal cosa.. SINO (ELSE) hacé tal otra". 
+   
+   ej: if (x == Y) {
+         return "Hola";
+       } else {
+          return "Chau";
+       }
+       
+       
+   //TRUE, FALSE: true es el resultado positivo lógico de un código. false es el resultado negativo. 
