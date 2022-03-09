@@ -1,0 +1,14 @@
+  Definiciones homework.js "03-JS-II". 
+
+   // for : es un statement usado para repetir un código varias veces en bucle hasta que el resultado de "false". 
+            para utilizarlo, debemos primero crear una variable, luego le damos una condición y por último incrementamos 
+            la variable (de no realizar el tercer paso, el bucle puede tornarse infinito). estas acciones se separan con ";"
+     
+        Por ejemplo :   for (bucle = 1;            bucle <= 10;                 bucle++)
+                        // asignamos un valor // asignamos una condición// incrementamos la variable // 
+
+    
+    // operadores lógicos: 
+    // && : significa AND (en español Y) 
+    // || : significa OR (en español O)
+    // ! : significa NO (se utiliza como negación) 
