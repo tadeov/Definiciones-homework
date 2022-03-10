@@ -1,0 +1,9 @@
+Definiciones homework JS-III: 
+
+   //ARRAY: un array es una expresión que utilizamos para encadenar en forma de matríz datos de cualquier tipo 
+   en una sola variable, como crear una carpeta de datos. 
+        para crear un array debemos crear una variable y a continuación establecer la cantidad de datos que querramos dentro de brackets "[]"
+        y separarlos por comas. podremos acceder a ellos o editar esta lista, con métodos incorporados, cuando querramos. 
+    
+    ej: var arreglo = [ 1, 2, "hola", function(), true]; 
+            
